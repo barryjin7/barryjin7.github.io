@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="假设，鸡蛋质量为$m$，25层楼高为$h$，到达地面时速度为$v$，由动能定理可得：      mgh &#x3D; \frac{1}{2}mv^2 \\     v&#x3D;\sqrt{2gh}落地时间为$t$，由动量定理可得：      (F-mg)t&#x3D;mv \\     F &#x3D; \frac{mv}{t}+mg \\     F &#x3D; \frac{m\sqrt{2gh}}{t}+mg \\     F &#x3D; \f">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2018年高考理综全国II卷个人解析">
+<meta property="og:url" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/index.html">
+<meta property="og:site_name" content="火箭队">
+<meta property="og:description" content="假设，鸡蛋质量为$m$，25层楼高为$h$，到达地面时速度为$v$，由动能定理可得：      mgh &#x3D; \frac{1}{2}mv^2 \\     v&#x3D;\sqrt{2gh}落地时间为$t$，由动量定理可得：      (F-mg)t&#x3D;mv \\     F &#x3D; \frac{mv}{t}+mg \\     F &#x3D; \frac{m\sqrt{2gh}}{t}+mg \\     F &#x3D; \f">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/15.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/16.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/18.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/23.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/24.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/25.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/25-1.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/34-1.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/34-2.png">
+<meta property="og:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/34-2-1.png">
+<meta property="article:published_time" content="2025-02-21T05:42:48.000Z">
+<meta property="article:modified_time" content="2025-02-21T13:59:11.906Z">
+<meta property="article:author" content="Barry Jin">
+<meta property="article:tag" content="朝花夕拾">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/15.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>2018年高考理综全国II卷个人解析</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="目录"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="目录"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="顶部" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">项目</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/2025/02/20/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E6%B8%B8%E6%88%8F/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="返回顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&text=2018年高考理综全国II卷个人解析"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&is_video=false&description=2018年高考理综全国II卷个人解析"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=2018年高考理综全国II卷个人解析&body=Check out this article: http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&name=2018年高考理综全国II卷个人解析&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&t=2018年高考理综全国II卷个人解析"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        2018年高考理综全国II卷个人解析
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Barry Jin</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2025-02-21T05:42:48.000Z" class="dt-published" itemprop="datePublished">2025-02-21</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fa-solid fa-tag"></i>
+        <a class="p-category" href="/tags/%E6%9C%9D%E8%8A%B1%E5%A4%95%E6%8B%BE/" rel="tag">朝花夕拾</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/15.png" class>
+<p>假设，鸡蛋质量为$m$，25层楼高为$h$，到达地面时速度为$v$，由动能定理可得：</p>
+<script type="math/tex; mode=display">
+    mgh = \frac{1}{2}mv^2 \\
+    v=\sqrt{2gh}</script><p>落地时间为$t$，由动量定理可得：</p>
+<script type="math/tex; mode=display">
+    (F-mg)t=mv \\
+    F = \frac{mv}{t}+mg \\
+    F = \frac{m\sqrt{2gh}}{t}+mg \\
+    F = \frac{50\cdot 10^{-3}\cdot \sqrt{2 \cdot 10 \cdot h}}{2 \cdot 10^{-3}}+50\cdot 10^{-3}\cdot 10 \text{N}=50\sqrt{5h}+0.5\text{N}</script><p>根据经验，一层楼肯定比人高，但是又不能太高，所以这里取3-5m之间的一个数都可以，为了方便计算我们取$h=125\text{m}$，最终有：</p>
+<script type="math/tex; mode=display">
+    F = 50\sqrt{5\cdot 125}+0.5\text{N}=1250.5\text{N}</script><p>选择C选项。</p>
+<p>这道题的容错率其实非常高。在动量定理阶段，即使忘记计算重力的冲量，也不会影响选择。此外，这里选择的5米层高已经不太合适，因为标准层高一般是2.8米，而5米的层高通常用于商场等特殊建筑，但商场不太可能建25层。再者，在计算总高度时，我们使用了25层乘以层高，实际上应该是24层乘以层高。尽管如此，这些细节并不会影响最终选择。回想起来，当年我可能是错把动能的数值当成了动量数值，导致错误选择了D选项。时隔多年再做这道题，依然没能避免选错D。</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/16.png" class>
+<p>对于星球表面的一个物体，它应该处于围绕星球自转的临界点，即万有引力完全充当向心力，假设物体质量为$m$，星球质量为$M$，星球半径为$R$，星球自转速度为$v$：</p>
+<script type="math/tex; mode=display">
+    G\frac{mM}{R^2}=m\frac{v^2}{r}</script><p>自转周期$T$与速度$v$的关系为：</p>
+<script type="math/tex; mode=display">
+    v=\frac{2\pi R}{T}</script><p>星球密度$\rho$与质量$M$的关系为：</p>
+<script type="math/tex; mode=display">
+    M=\rho V=\rho\frac{4}{3}\pi R^3</script><p>全部带入可得：</p>
+<script type="math/tex; mode=display">
+\rho = \frac{3 \pi}{GT^2}</script><p>这里可以估算一下：</p>
+<script type="math/tex; mode=display">
+\rho = \frac{3 \pi}{GT^2}\approx\frac{3\cdot 3}{6\cdot 10^{-11}\cdot (5\cdot 10^{-3})^2}\text{kg}/\text{m}^3=6\cdot 10^{15}\text{kg}/\text{m}^3</script><p>选择C选项。</p>
+<p>没什么好说的，就是算数，当时是蒙的，没想到蒙对了。</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/18.png" class>
+<p>波长为300nm的光，它的光子能量为：</p>
+<script type="math/tex; mode=display">
+    E_{1}=h\nu_1=h\frac{c}{\lambda}</script><p>根据光电效应方程：</p>
+<script type="math/tex; mode=display">
+    E_{1}=E_{逸出}+E_{动}</script><p>产生光电效应的光最低光子能量为：</p>
+<script type="math/tex; mode=display">
+    E_2=h\nu_2=E_{逸出}</script><p>它的频率为：</p>
+<script type="math/tex; mode=display">
+\nu_2=\frac{E_{逸出}}{h}=\frac{E_1-E_{动}}{h}=\frac{h\frac{c}{\lambda}-E_{动}}{h}=\frac{c}{\lambda}-\frac{E_{动}}{h}</script><p>估算一下：</p>
+<script type="math/tex; mode=display">
+\nu_2=\frac{c}{\lambda}-\frac{E_{动}}{h}\approx \frac{3\cdot 10^8}{300\cdot 10^{-9}}-\frac{1.3\cdot 10^{-19}}{6.5\cdot 10^{-34}}=10\cdot 10^{14}-2\cdot 10^{14}=8\cdot 10^{14}\text{Hz}</script><p>选择B选项。</p>
+<p>没什么好说的，还是算数，但在考场上很难有胆量去大胆估算，当时犹犹豫豫最后选错了。</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/23.png" class>
+<p>(1) 读数，最小刻度是0.1N，从0到9能精确读出，所以往后估读一位，2.75N。</p>
+<p>(2) 略</p>
+<p>(3) 木块受到拉力和摩擦力平衡，而拉力，有：</p>
+<script type="math/tex; mode=display">
+    f=\mu (m+M)g \\
+    f=\mu gm +\mu g M</script><p>所以：</p>
+<script type="math/tex; mode=display">
+k=\mu g</script><p>(4) 逐差法：</p>
+<script type="math/tex; mode=display">
+    k_1=\frac{2.75-2.15}{0.15}=\frac{0.60}{0.15}=4.00\\
+    k_2=\frac{2.93-2.36}{0.15}=\frac{0.57}{0.15}=3.80\\
+    k=\frac{k_1+k+2}{2}=\frac{4.00+3.80}{2}=3.90\\
+    \mu = \frac{k}{g}=\frac{3.90}{9.80}=0.40</script><p>这种题就是要尽可能的多用数据，不能用相邻的算，一般隔一个就行，奇数个数据需要舍弃中间段。</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/24.png" class>
+<p>(1)<br>B车碰撞后只受摩擦力做匀减速直线运动，由动能定理可得：</p>
+<script type="math/tex; mode=display">
+-\mu m_Bgx_B=-\frac{1}{2}m_Bv_B^2 \\
+v_B=\sqrt{2\mu gx_B}=\sqrt{2\cdot 0.1\cdot 10\cdot 4.5}\text{m}/\text{s}=\sqrt{9}\text{m}/\text{s}=3\text{m}/\text{s}</script><p>(2)<br>碰撞后A车也只受摩擦力做匀减速直线运动，由动能定理可得：</p>
+<script type="math/tex; mode=display">
+-\mu m_Agx_A=-\frac{1}{2}m_Av_A^2 \\
+v_A=\sqrt{2\mu gx_A}=\sqrt{2\cdot 0.1\cdot 10\cdot 2}\text{m}/\text{s}=\sqrt{4}\text{m}/\text{s}=2\text{m}/\text{s}</script><p>碰撞瞬间由动量定理有：</p>
+<script type="math/tex; mode=display">
+    m_Av_A'=m_Av_A+m_Bv_B \\
+    v_A'=v_A+\frac{m_B}{m_A}v_B=2+\frac{1.5\cdot 10^3}{2 \cdot 10^3}\cdot 3\text{m}/\text{s}=4.25\text{m}/\text{s}</script><p>没什么好说的，貌似是动量定理第一年纳入高考必修，出个签到题。但是好像答案第二问是4.3，这是为什么呢？</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/25.png" class>
+<p>(1)</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/25-1.png" class>
+<p>粒子进入电场后，$y$轴方向速度不变，$x$轴方向上做匀加速运动，因此轨迹类似于平抛运动。</p>
+<p>进入磁场后，只收到洛伦兹力做匀速圆周运动，由于后面进入了第二个电场，所以磁场方向只能垂直纸面向内。</p>
+<p>后续粒子从N处射出，所以运动轨迹对称。</p>
+<p>(2) 设粒子带电量为$q$，质量为$m$，入射速度为$v_y$，进入磁场时速度与$x$轴夹角为$\theta$，速度为$v$.</p>
+<p>粒子在第一个电场中做类平抛运动，根据牛顿第二定律，$x$轴方向加速度为：</p>
+<script type="math/tex; mode=display">
+Eq=ma</script><p>进入磁场时$x$轴方向速度为:</p>
+<script type="math/tex; mode=display">
+    v_x=v\cos\theta</script><p>粒子在$y$轴方向没有加速度，做匀速运动，则穿越第一个电场的时间为：</p>
+<script type="math/tex; mode=display">
+    t_1=\frac{l'}{v_y}</script><p>由以上方程可得：</p>
+<script type="math/tex; mode=display">
+    v_x=at_1 \\
+    v\cos\theta=\frac{Eq}{m}\cdot \frac{l'}{v_y} \\</script><p>在磁场中，粒子只收到洛伦兹力充当向心力做匀速圆周运动，有：</p>
+<script type="math/tex; mode=display">
+    Bqv=\frac{mv^2}{r} \\
+    r=\frac{mv}{Bq}</script><p>由运动轨迹可得：</p>
+<script type="math/tex; mode=display">
+    \cos\theta=\frac{\frac{l}{2}}{r}=\frac{l}{2}\cdot \frac{Bq}{mv}=\frac{Bql}{2mv}</script><p>带入有：</p>
+<script type="math/tex; mode=display">
+v\cdot \frac{Bql}{2mv}=\frac{Eql'}{mv_y} \\
+v_y=\frac{2El'}{Bl}</script><p>这里的难点在于这几个量到底该如何表示，我们用$v$表示了$v_x$，但是却没有表示$v_y$，这是因为我们只能得到$\cos\theta$。我记得我前几次做的时候都是用$v$统一表示，最后想求出$v$，方程里用了好多三角函数变换，最后都以失败告终，果然高中物理题目有很多归根结底其实时平面集合题。</p>
+<p>(3) 现在已知，$\theta=\frac{\pi}{6}$。</p>
+<p>进入磁场的速度为：</p>
+<script type="math/tex; mode=display">
+    v=\frac{v_y}{\sin\theta}=\frac{\frac{2El'}{Bl}}{\frac{1}{2}}=\frac{4El'}{Bl}</script><p>圆周运动的半径为：</p>
+<script type="math/tex; mode=display">
+    r=\frac{\frac{l}{2}}{\cos\theta}=\frac{\frac{l}{2}}{\frac{\sqrt{3}}{2}}=\frac{l}{\sqrt{3}} \\
+    r=\frac{mv}{Bq} \\</script><p>那么比荷：</p>
+<script type="math/tex; mode=display">
+    \frac{q}{m}=\frac{v}{Br}=\frac{4El'}{Bl}\cdot \frac{\sqrt{3}}{Bl}=\frac{4\sqrt{3}El'}{B^2l}</script><p>由于对称性，经过两个电场的时间应该是相同的，所以有：</p>
+<script type="math/tex; mode=display">
+    t_{电}=2t_1=2l'\cdot \frac{Bl}{2El'}=\frac{Bl}{E}</script><p>粒子在磁场中经过的弧长为：</p>
+<script type="math/tex; mode=display">
+    L=r\cdot 2\cdot (\frac{\pi}{2}-\theta)=\frac{2\sqrt{3}\pi l}{9}</script><p>在磁场中运动的时间为：</p>
+<script type="math/tex; mode=display">
+    t_{磁}=\frac{L}{v}=\frac{2\sqrt{3}\pi l}{9}\cdot \frac{Bl}{4El'}=\frac{\sqrt{3}\pi B l^2}{18El'}</script><p>总时间为：</p>
+<script type="math/tex; mode=display">
+    t=t_{电}+t_{磁}=\frac{Bl}{E}+\frac{\sqrt{3}\pi B l^2}{18El'}=\frac{Bl}{E}(1+\frac{\sqrt{3}\pi l}{18l'})</script><p>公式全部列出不是很困难，但是数不是很好算。</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/34-1.png" class>
+<p>设桥长为$l$，有：</p>
+<script type="math/tex; mode=display">
+t_{空气}-t_{钢铁}=\frac{l}{v_{空气}}-\frac{l}{v_{钢铁}} \\
+l=\frac{t_{空气}-t_{钢铁}}{\frac{l}{v_{空气}}-\frac{l}{v_{钢铁}}} \\
+l=\frac{1}{\frac{1}{340}-\frac{1}{4900}}\text{m}=\frac{4900\cdot 340}{4900-340}\text{m}=\frac{1666000}{4560}\text{m}=\frac{20825}{57}\text{m}</script><p>波在不同介质里频率不变，因此有：</p>
+<script type="math/tex; mode=display">
+    \frac{v_{空气}}{\lambda}=\frac{v_{钢铁}}{\lambda_{钢铁}} \\
+    \frac{\lambda_{钢铁}}{\lambda} = \frac{v_{钢铁}}{v_{空气}}=\frac{4900}{340}=\frac{245}{17}</script><p>又是算数，说实话有点刻意了，也不说保留几位小数，分数化简还得找最大公约数，真把大伙当雨人了啊。</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/34-2.png" class>
+<p>还不会</p>
+<p>(i)</p>
+<img src="/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/34-2-1.png" class>
+<p>$∠C=30°$，所以有$CG=2EG$。</p>
+<p>$D$是$CG$中点，所以有$CD=DG=EG$，$DEG$是等边三角形。</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">首页</a></li>
+        
+          <li><a href="/about/">关于</a></li>
+        
+          <li><a href="/archives/">归档</a></li>
+        
+          <li><a target="_blank" rel="noopener" href="http://github.com/probberechts">项目</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&text=2018年高考理综全国II卷个人解析"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&is_video=false&description=2018年高考理综全国II卷个人解析"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=2018年高考理综全国II卷个人解析&body=Check out this article: http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&title=2018年高考理综全国II卷个人解析"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&name=2018年高考理综全国II卷个人解析&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=http://example.com/2025/02/21/2018%E5%B9%B4%E9%AB%98%E8%80%83%E7%90%86%E7%BB%BC%E5%85%A8%E5%9B%BDII%E5%8D%B7%E4%B8%AA%E4%BA%BA%E8%A7%A3%E6%9E%90/&t=2018年高考理综全国II卷个人解析"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2025
+    Barry Jin
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="http://github.com/probberechts">项目</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板！\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功！");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="//cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+</html>
